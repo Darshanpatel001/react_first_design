@@ -1,0 +1,385 @@
+
+body{
+  text-decoration: none;
+}.nav {
+  background-color: black;
+}
+.navbar-nav{
+  margin: 0 auto;
+}
+a{
+  color: #fff;
+}
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --header-font: #333333;
+  --heading-color: #01001a;
+  --white: #ffffff;
+  --black: #000000;
+  --hover-color: #fa6400;
+
+}
+
+::selection {
+  background-color: #b9e2f3;
+}
+
+/* comman css */
+body {
+  font-family: 'Hanken Grotesk';
+
+}
+
+img {
+
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1208px;
+}
+
+.row {
+  --bs-gutter-x: 20px;
+}
+.cstm-btn-1 {
+  color: var(--header-font);
+  /* background-color: rgba(0, 0, 0, 0); */
+  border: 1px solid #000;
+  padding: 13px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 170%;
+  transition: all 0.5s;
+}
+.btn{
+  padding: 0;
+}
+.banner{
+  background-image: linear-gradient(rgba(0, 0, 0, .15), rgba(0, 0, 0, .15)), url(./images/heroimg.jpg);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 117px;
+    display: flex;
+    padding-bottom: 117px;
+    position: relative;
+}
+
+.banner .boxx {
+  grid-column-gap: 50px;
+  color: #000;
+  background-color: #fff;
+  align-items: center;
+  padding: 24px 35px;
+  font-size: 24px;
+  line-height: 150%;
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.banner .banner-data h1 {
+  color: var(--white);
+  margin-bottom: 10px;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 100%;
+}
+
+.banner .banner-data p {
+  /* font-size: 30px; */
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  font-weight: 300;
+  max-width: 280px;
+  background-color: rgb(255 255 241 / 20%);
+}
+/* =====better-future============ */
+.better-future {
+  padding: 150px 0px;
+}
+
+.shaping-future {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.shaping-future .tittle p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.shaping-future h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 50px;
+  color: var(--black);
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.better-future .future-content .linee {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: var(--black);
+  width: 100%;
+  height: 2px;
+}
+
+.better-future .future-content .future-top p {
+  color: var(--header-font);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.better-future .future-content .future-top .p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--header-font);
+}
+
+.better-future .cstm-btn-1 {
+  padding: 11px 113px;
+}
+/* ==service=============== */
+.service {
+  padding: 0px 0px 150px;
+}
+
+.service .cstm-btn-1 {
+  color: var(--black);
+  background-color: var(--hover-color);
+  border-style: none;
+}
+
+.service .cstm-btn-1:hover {
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.features-card {
+  padding: 40px 30px;
+  box-shadow: var(---big-box);
+  /* align-items: center; */
+}
+
+.icon-box {
+  width: 110px;
+  height: 100%;
+}
+
+.service .card {
+  border: 1px solid rgba(0, 0, 0, .1);
+  transition: all 0.3s;
+}
+
+.service .card:hover {
+  border-color: var(--black);
+}
+
+.service .card .card-body h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.service .card .card-body p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+  color: var(--header-font);
+
+}
+
+.icon-box i {
+  font-size: 40px;
+}
+/* ============projecct= */
+.projectt {
+  color: var(--white);
+  background-color: var(--black);
+  padding: 80px 0px;
+}
+
+.projectt .cardd {
+  overflow: hidden;
+}
+
+.projectt .cardd img:hover {
+  transform: scale(1.05);
+}
+
+.projectt .cardd img {
+  transition: all 0.5s;
+  width: 100%;
+}
+
+.projectt .shaping-future .tittle .invert {
+  filter: invert();
+}
+
+.projectt .shaping-future .cstm-btn-1:hover {
+  background-color: var(--white);
+}
+
+.projectt .shaping-future .cstm-btn-1 {
+  color: var(--black);
+  background-color: var(--hover-color);
+  font-style: 500px;
+  transition: all 0.3s;
+
+}
+
+.projectt .location {
+  backdrop-filter: blur(2px);
+  border: 1px solid #fff;
+  border-radius: 40px;
+  padding: 4px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+/* ===========blogg====== */
+.testimonials {
+  padding: 150px 0px;
+}
+.testimonials .shaping-future{
+  position: relative;
+}
+.testimonials .card {
+  padding: 30px;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.testimonials .head {
+  margin-bottom: 48px;
+}
+
+.testimonials .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.testimonials .card .card-img img {
+  width: 60px;
+}
+
+.testimonials .card .card-body p:last-child {
+  color: var(--p-color);
+  font-size: 12px;
+}
+
+.testimonials .card .card-body .buid {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.testimonials .customers button {
+  height: 39px;
+  width: 40px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  transition: all 0.5s;
+}
+
+.testimonials .customers button:hover {
+  border: 1px solid var(--black);
+}
+.customers{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* =======footer=========== */
+footer {
+  background: #1e1e1e;
+  color: var(--white);
+}
+
+footer .footer-top {
+  padding: 80px 0px 20px;
+}
+
+footer .row .footerr .footer-social i {
+  background-color: #353535;
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s;
+}
+
+footer .row .footerr .footer-social i:hover {
+  background-color: var(--hover-color);
+}
+
+.footerr .webflow p:last-child {
+  transition: all 0.5s;
+}
+
+.footerr .webflow p:hover {
+  color: var(--hover-color);
+}
+
+footer .row li {
+  list-style: none;
+  transition: all 0.5s;
+}
+
+footer .row a:hover {
+  color: var(--hover-color);
+}
+
+footer .row li a {
+  transition: all 0.5s;
+  color: var(--white);
+  font-style: 16px;
+  font-weight: 500;
+}
+
+footer .footer-bottom p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+footer .footer-bottom .copyright {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+footer .footer-bottom .copyright a {
+  color: var(--white);
+  text-decoration: underline;
+  transition: all 0.5s;
+}
+
+footer .footer-bottom .copyright a:hover {
+  text-decoration: none;
+}
+
+footer .footer-img img {
+  height: 100%;
+  max-height: 387px;
+  min-height: 387px;
+  object-fit: cover;
+}
